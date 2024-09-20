@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/ayka-pharma",
+  basePath: "/ayka",
   output: "export",
   reactStrictMode: true,
   images: {
