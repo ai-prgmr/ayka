@@ -53,7 +53,7 @@ export default function RootLayout({
         {isLoading ? (
           <SplashScreen />
         ) : (
-          <section className="w-full ">
+          <section className="w-full">
             <Providers>
               <Header />
               {children}
