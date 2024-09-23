@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const pathName = usePathname();
-  const googleMapsImage = "/ayka/images/gallery/maps.png"; // Replace with your image path
+  const googleMapsImage = "/images/gallery/maps.png"; // Replace with your image path
   const googleMapsUrl =
     "https://www.google.com/maps/place/Ayka+Pharma/@22.6416291,75.956416,17z/data=!3m1!4b1!4m6!3m5!1s0x3962e5ffe82b8d53:0xe4358c81ee0f7136!8m2!3d22.6416291!4d75.9589909!16s%2Fg%2F11fk7rkbmx?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D";
   return (
@@ -40,7 +40,7 @@ const Footer = () => {
                     preload="auto"
                   >
                     <source
-                      src="/ayka/images/logo/logo132-dp.webm"
+                      src="/images/logo/logo132-dp.webm"
                       type="video/mp4"
                     />
                     Your browser does not support the video tag.

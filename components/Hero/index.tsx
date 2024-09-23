@@ -41,7 +41,7 @@ const Hero = () => {
                     viewport={{ amount: 0.3 }}
                     transition={{ duration: 1, ease: "easeInOut" }}
                   >
-                    <h2 className="mt-12 text-center text-2xl font-extrabold text-[#38364d]">
+                    <h2 className="mt-12 text-center text-2xl font-extrabold text-[#2b1faf]">
                       Your Vision, Our Expertise
                     </h2>
                     <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

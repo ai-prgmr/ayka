@@ -11,12 +11,12 @@ export type FormData = {
 };
 
 const Contact: FC = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors, isValid },
-  } = useForm<FormData>();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   reset,
+  //   formState: { errors, isValid },
+  // } = useForm<FormData>();
   const [response, setResponse] = useState(null);
 
   // const onSubmit = async (data: FormData) => {
@@ -49,10 +49,9 @@ const Contact: FC = () => {
                   </h2>
                 </span>
                 <p className="m-4 inline-block w-56 items-center rounded-md bg-white bg-opacity-30 text-base font-medium text-[#38364d]">
-                  Mail us at{" : "}
                   <span className="mt-4">
                     <Link
-                      href="mailto:aykapharma@gmail.com?subject=Subject&body=Pre-filled Body"
+                      href="mailto:aykapharma@gmail.com"
                       className="px-1 py-4 text-base"
                     >
                       aykapharma@gmail.com

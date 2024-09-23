@@ -58,10 +58,7 @@ const Header = () => {
                   autoPlay
                   preload="auto"
                 >
-                  <source
-                    src="/ayka/images/logo/logo132-dp.webm"
-                    type="video/mp4"
-                  />
+                  <source src="/images/logo/logo132-dp.webm" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </Link>
@@ -72,27 +69,27 @@ const Header = () => {
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-2 ring-[#2b1faf] lg:hidden"
                 >
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
                       navbarOpen ? "opacity-0 " : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 ${
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[2.5px] border-white bg-gray-200 bg-opacity-80  px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -105,7 +102,7 @@ const Header = () => {
                           <Link
                             href={menuItem.path}
                             onClick={navbarToggleHandler}
-                            className={`flex py-2 text-xl font-bold text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6`}
+                            className={`flex py-2 text-xl font-bold text-[#2b1faf] group-hover:opacity-70 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6`}
                           >
                             {menuItem.title}
                           </Link>
