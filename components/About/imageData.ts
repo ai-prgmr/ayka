@@ -1,7 +1,7 @@
 const imageData = [
   "/ayka/images/brands/Aam-Panna-ORS-Tetra.png",
   "/ayka/images/brands/Apple-ORS-Tetra.png",
-  "/ayka/images/brands/BlackCurrent-ORS-Tetra.png",
+  "/ayka/images/brands/Blackcurrent-ORS-Tetra.png",
   "/ayka/images/brands/Jeera-ORS-Tetra.png",
   "/ayka/images/brands/Litchi-ORS-Tetra.png",
   "/ayka/images/brands/Mix-Fruit-ORS-Tetra.png",
