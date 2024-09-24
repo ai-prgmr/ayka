@@ -11,14 +11,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const images = [
-    "/images/gallery/ayka machines-1.png",
-    "/images/gallery/ayka machines-2.png",
-    "/images/gallery/ayka machines-3.png",
-    "/images/gallery/1000004106.jpg",
-    "/images/gallery/1000004103.jpg",
-    "/images/gallery/1000004102.jpg",
-    "/images/gallery/1000004100.jpg",
-    "/images/gallery/1000004098.jpg",
+    "/ayka/images/gallery/ayka machines-1.png",
+    "/ayka/images/gallery/ayka machines-2.png",
+    "/ayka/images/gallery/ayka machines-3.png",
+    "/ayka/images/gallery/1000004106.jpg",
+    "/ayka/images/gallery/1000004103.jpg",
+    "/ayka/images/gallery/1000004102.jpg",
+    "/ayka/images/gallery/1000004100.jpg",
+    "/ayka/images/gallery/1000004098.jpg",
   ];
   return (
     <>
