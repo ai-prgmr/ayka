@@ -58,10 +58,7 @@ const Header = () => {
                   autoPlay
                   preload="auto"
                 >
-                  <source
-                    src="/ayka/images/logo/logo132-dp.webm"
-                    type="video/mp4"
-                  />
+                  <source src="/images/logo/logo132-dp.webm" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </Link>

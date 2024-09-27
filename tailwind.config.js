@@ -55,8 +55,7 @@ module.exports = {
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        "watermark-pattern":
-          "url('/ayka/images/logo/ayka-watermark-removebg.png')",
+        "watermark-pattern": "url('/images/logo/ayka-watermark-removebg.png')",
       },
       backgroundSize: {
         "1/2": "50%",
