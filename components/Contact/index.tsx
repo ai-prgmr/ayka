@@ -54,7 +54,7 @@ const Contact: FC = () => {
                       href="mailto:aykapharma@gmail.com"
                       className="px-1 py-4 text-base"
                     >
-                      aykapharma@gmail.com
+                      aykapharma@aykapharma.com
                     </Link>
                   </span>
                 </p>
